@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.layout-link-section{
+  padding: 1rem;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  > a {
+    padding-bottom: 0.5rem;
+  }
+}
+
+.layout-content-section{
+  padding: 1rem;
+}
