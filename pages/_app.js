@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import { Layout } from './utils/layout'
+import Layout from './utils/layout'
 import '/node_modules/@openlibrary/ui/dist/style.css';
 
 function MyApp({ Component, pageProps }) {

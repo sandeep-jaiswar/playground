@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Grid, Column } from '@openlibrary/ui';
-export const Layout = ({ children }) => {
+export default function Layout({ children }) {
     return (
         <Grid>
             <Column className='layout-link-section' size={2}>
@@ -15,7 +15,6 @@ export const Layout = ({ children }) => {
                 <Link href="../component/dropdown">Dropdown</Link>
                 <Link href="../component/select">Select</Link>
                 <Link href="../component/slider">Slider</Link>
-                <Link href="../component/autocomplete">Autocomplete</Link>
                 <Link href="../component/chips">Chips</Link>
                 <Link href="../component/appbar">App Bar</Link>
                 <Link href="../component/bottomnavigation">Bottom Navigation</Link>

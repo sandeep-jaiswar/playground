@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import TimePicker from '@openlibrary/ui';
+import { TimePicker } from '@openlibrary/ui';
 
 const App: React.FC = () => {
   const [selectedTime, setSelectedTime] = useState<string | null>(null);
